@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(63, 61, 61);
+}
+
 #title, .subtitle, .postTitle{
     color: #6b3232;
 }
@@ -5,4 +9,13 @@
 .postTitle {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 10px;
 }
